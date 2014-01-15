@@ -1,0 +1,31 @@
+body{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	color:#333;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	padding: 0; 
+	background:#eaeaea url(../../img/backoffice/bg_body_left.png) repeat-y left; 
+	color: #666;
+}
+
+a{color:#000;}
+a:hover{color:#000;}
+h1{color:#006cb7;}
+h2{color:#006cb7;}
+h3{color:#006cb7;}
+h4{color:#006cb7;}
+h5{color:#006cb7;}
+table{margin-left:5px; margin-right:5px; margin-top:50px;}
+table th{padding-left:10px; padding-right:10px;color:#006cb7;}
+table td{padding-left:10px; padding-right:10px;}
+.btn:hover{color:white;}
+.btn_add{padding: 15px; height: 20px; border-radius: 5px; -moz-border-radius: 10px; margin-top: 10px; text-align:right;}
+.btn_add span{margin-top:-10px; padding:0px; margin-left:0px;}
+a.btn:hover{color:white;}
+.bouton_add{float:right;}
+.logotop{position:absolute; margin-left:50px;}
+.fondtextb{margin-top:-20px;}
+#breadcrumb{margin-top:-20px;}

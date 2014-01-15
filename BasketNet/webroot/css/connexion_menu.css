@@ -1,0 +1,50 @@
+#header { overflow: hidden; position: fixed; width: 100%; z-index: 150;color:white; top:0px;}
+#header .content {
+	padding: 10px 20px 0px 20px;
+	background-color: #494949; 
+	display: none;
+}
+#header .content table { width: 100%; }
+#header .content table td { width: 20%; }
+#header .content .td_sep {background: url(../img/nav_separator_darker.jpg) repeat-y left top;padding: 0 0 0 10px;}			
+#header .content td h3 {  margin-bottom: 2px; padding: 0; line-height: 20px; height: 20px; }			
+#header .content td ul {list-style-image: url(../img/header_arrow.gif);padding: 0 0 0 0px;margin: 10px 0 0px 0px;}
+#header .content td ul  li { color: #CCCCCC; }
+#header .activate {	
+	height: 30px;
+	background: url(../img/bg_activate.png) repeat-x ;
+	position: relative;
+}
+#header .activate .connect_with {
+	display: block;
+	margin-top: 10px;
+	position: absolute;
+	font-size: 10px;
+	font-style: italic;
+	right: 0;
+	margin-right: 190px;
+}
+#header .activate .button {	
+	display: block;
+	width: 154px;
+	height: 43px;
+	background: url(../img/button_activate2.png) no-repeat;
+	text-align: center;
+	line-height: 26px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	margin-right: 35px;
+	z-index:1500;
+}
+#header .activate .deconnect {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/exit.png) no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	right: 5px;
+	top: 12px;
+}

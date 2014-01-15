@@ -1,0 +1,2 @@
+<script type="text/javascript" src="<?php echo Router::webroot('js/ckeditor/ckeditor.js');?>"></script>
+<script type="text/javascript" src="<?php echo Router::webroot('js/ckfinder/ckfinder.js');?>"></script>

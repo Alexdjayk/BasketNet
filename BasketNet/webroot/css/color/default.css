@@ -1,0 +1,17 @@
+a{color:#fff;}
+a:hover{color:#006cb7;}
+h1{color:#006cb7;}
+h2{color:#006cb7;}
+h3{color:#006cb7;}
+h4{color:#006cb7;}
+h5{color:#006cb7;}
+.form_profil input{margin-bottom:10px; height:25px; width:200px; font-size:15px; color:#006cb7;}
+#header .activate .button :hover{color:#006cb7;}
+.search input{ margin-top:8px; margin-left:-70px; width:250px; border-radius: 50px 50px 50px 50px; color:#006cb7;}
+.Mois_all_last_games{background-color:#006cb7; width:400px; height:40px; border:4px solid #000;}
+.posts_article  a{color:#006cb7;}
+.typearticle span{color:#006cb7;}
+.footers{color:#006cb7;background-color:black;display:block;height:300px;position:relative;}
+.textfoot div a{color:#006cb7;}
+.pagination_homes a{color:#006cb7;}
+.pagination a{color:#006cb7;}

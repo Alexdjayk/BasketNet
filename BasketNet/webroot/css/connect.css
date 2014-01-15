@@ -1,0 +1,387 @@
+/***************************************************************
+						BODY DEFAUT
+****************************************************************/
+body{
+
+	background-color:#000;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	font: 13px Helvetica, sans-serif, Georgia;
+	color:#333;
+}
+a{color:#fff;}
+a:hover{color:#006cb7;}
+h1{color:#006cb7;}
+h2{color:#006cb7;}
+h3{color:#006cb7;}
+h4{color:#006cb7;}
+h5{color:#006cb7;}
+/***************************************************************
+						TITRES 
+****************************************************************/
+.titre_slogan{text-align:center;}
+.titre_slogan h1{margin-top:10px; margin-bottom:10px;}
+.titre_article{margin-left:30px;}
+/***************************************************************
+						ERROR 404
+****************************************************************/
+.error_404{display:block; margin-left:auto; margin-right:auto;}
+.error_404_txt{text-align:center; font-size:14px; }
+
+.success {border: 3px solid #8EA534; background: #CBDA8F url(../img/bg_fade_green_med.png) repeat-x top; width:900px;}
+.success span {color: #8EA534;}
+.success .closestatus a {background: #8EA534;}
+.success .closestatus a:hover {background: #829829;}
+
+.error {border: 3px solid #990000; background: #F5D0CD url(../img/bg_fade_red_med.png) repeat-x top; width:900px;}
+.error span {color: #990000;}
+.error .closestatus a {background: #990000;}
+.error .closestatus a:hover {background: #730D0D;}
+
+.status {padding: 8px 10px 5px 10px; border-radius: 10px; -moz-border-radius: 10px; text-shadow: 1px 1px 1px #fff; overflow: auto; margin-bottom: 20px; clear: both;}
+.status img {float: left; padding-right: 5px;}
+.status p {padding: 0; margin: 0;}
+.status p span {font-weight: 700;}
+.status .closestatus {float: right; color: #fff; text-align: center; margin-left: 10px;}
+.status .closestatus a {position: relative; color: #fff; text-decoration: none; padding: 5px; width: 10px; height: 10px; display: block; border-radius: 5px; -moz-border-radius: 5px; line-height: .6em; top: -2px; text-shadow: none;}
+/***************************************************************
+						MENU PROFIL
+****************************************************************/
+.portrait_profil{ margin-left:40px; margin-bottom:15px;}
+.portrait_profil_txt{margin-left:75px; margin-top:-10px;margin-bottom:10px;}
+.form_profil{margin-top:15px;}
+.form_profil input{margin-bottom:10px; height:25px; width:200px; font-size:15px; color:#006cb7;}
+.form_profil input:hover{}
+#header .activate .button :hover{color:#006cb7;}
+/***************************************************************
+						MENU
+****************************************************************/
+.header_menu{z-index:-100; position:absolute; border-radius: 5px 5px 5px 5px; border:2px solid #fff; margin-left:470px; left:0px; width:960px; margin-top:10px;}
+.header_bg img{z-index:-250; position:relative; margin-top:-142px; border-radius: 5px 5px 5px 5px; border:3px solid #fff; margin-left:-2px; margin-bottom:5px;}
+
+/** SEARCH **/
+.search img{margin-top:-70px; margin-left:150px;}
+.search input{ margin-top:8px; margin-left:-80px; width:250px; border-radius: 50px 50px 50px 50px; color:#006cb7;}
+.search .row{margin-top:-22px;}
+.menutop{margin-top:63px; margin-bottom:5px;}
+#menu li{
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+/***************************************************************
+						LOGO TOP
+****************************************************************/
+.logo{margin-top:60px; margin-left:0px;}
+.logo img{margin-top:-5px;margin-bottom:5px; margin-left:20px;}
+/***************************************************************
+						SLIDER TOP
+****************************************************************/
+.slider {}
+/***************************************************************
+						LAST GAME
+****************************************************************/
+.last_match_img{float:left; margin-left:20px; margin-right:20px; margin-top:10px; margin-bottom:10px; }
+.last_match_img img{margin-left:20px; margin-right:20px; margin-top:0px; margin-bottom:0px; z-index:-1;}
+/** MOIS **/
+.last_games_mois {text-align:left;margin-top:25px;margin-left:20px;}
+.mois{overflow:hidden; }
+
+.last_games_position_droite{float:right;}
+/** CATEGORIES DU MATCH**/
+.last_game{overflow:hidden; width:960px;}
+.last_game_img{margin-left:20px; z-index:-1; height:80px;}
+.last_game_categorie{z-index:20; margin-top:-80px; margin-left:-120px; padding-top:3px; font-weight:bold;}
+.last_game_date{z-index:20; margin-left:-120px; font-size:11px; color:silver;}
+/** MON EQUIPE **/
+.last_game_abreviation_mon_equipe{z-index:20;  margin-left:8px; margin-top:-25px; font-weight:bold;}
+.last_game_icone_mon_equipe{z-index:20; margin-left:25px; margin-top:-22px;  position:absolute; }
+.last_game_resultat_mon_equipe{z-index:20; margin-left:160px; margin-top:-22px; font-size:20px; font-weight:bold;}
+/** EQUIPE ADVERSE **/
+.last_game_abreviation_equipe_adverse{z-index:20;  margin-left:10px; margin-top:10px; font-weight:bold;}
+.last_game_icone_equipe_adverse{z-index:20; margin-left:25px; margin-top:-22px; position:absolute; }
+.last_game_resultat_equipe_adverse{z-index:20; margin-left:160px; margin-top:-22px; font-size:20px; font-weight:bold;}
+.last_game_recap{margin-left:-120px;}
+.last_game_dom_ext{z-index:20; margin-left:85px; margin-top:-15px; height:40px;}
+/** WIN **/
+.win{color:red;}
+.loose{color:black;}
+/***************************************************************
+						ALL LAST GAMES
+****************************************************************/
+.all_last_games{
+	margin-top:25px;
+	margin-bottom:25px;
+	display:block;
+	overflow:hidden;
+}
+.Mois_all_last_games{background-color:#006cb7; width:400px; height:40px; border:4px solid #000;}
+.Mois_all_last_games h3{color:white; margin-left:10px;margin-top:5px;}
+/***************************************************************
+						RESUME LAST GAMES
+****************************************************************/
+.resume_last_games{}
+.resume_last_games_date{}
+.top_resume_last_games{margin-top:25px;}
+/** MON EQUIPE**/
+.resume_last_games_resultat_mon_equipe{float:left; font-size:40px;}
+.resume_last_games_logo_mon_equipe{ margin-left:20px; margin-right:20px; width:200px;}
+.resume_last_games_nom_mon_equipe{text-align:center; width:100px; margin-left:95px;}
+/** EQUIPE ADVERSE**/
+.resume_last_games_logo_equipe_adverse{margin-left:20px; margin-right:40px;}
+.resume_last_games_nom_equipe_adverse{margin-right:20px;}
+.resume_last_games_resultat_equipe_adverse{ float:right;width:150px; font-size:40px; margin-top:-80px; margin-bottom:50px; }
+/***************************************************************
+						FOCUS
+****************************************************************/
+.focus{margin-top:40px;}
+.focus_titre h3{text-align:left; margin-top:0px;}
+.focus_content{text-align:justify; margin-top:5px;}
+/***************************************************************
+						COLONNE DE DROITE
+****************************************************************/
+
+.next_match_img{margin-left:-5px; margin-bottom:20px;}
+.next_match_img img{margin-left:-10px; margin-bottom:20px;}
+/** NEXT GAME **/
+.next_game{}
+/**BLOC DROITE TEST **/
+.bloc_droite_next_game_first{margin-top:40px; margin-left:-10px;}
+
+/** ID MATCH **/
+.next_game_id{visibility:hidden;}
+/** MATCH DOMICILE**/
+.dom{color:green;}
+/** MATCH EXTERIEUR**/
+.ext{color:red;}
+/** NEXT GAME @ **/
+.next_match_img_test{margin-left:-15px; margin-bottom:20px; z-index:-1; }
+
+.next_game_text{z-index:20;  width:300px; font-size:12px; font-weight:bold;}
+
+.next_game_soustitre{text-align:center; margin-bottom:5px;}
+.next_game_titre{color:white; font-size:15px; margin-top:-185px; margin-left:25px; margin-bottom:10px; font-weight:bold;}
+/** LOGOS EQUIPES **/
+.next_game_logo_mon_equipe img{margin-left:0px; position:absolute; z-index:50;}
+.next_game_logo_equipe_adverse img{margin-left:200px; margin-top:-73px; position:absolute; z-index:50;}
+/** NOMS EQUIPES **/
+.next_game_nom_equipe{margin-left:0px; margin-top:-15px; width:105px; text-align:center;}
+.next_game_equipe_adverse{margin-left:200px; margin-top:-30px; width:105px; text-align:center;}	
+/** DATE ET HEURE **/
+.next_game_heure{text-align:center; font-size:18px; font-weight:bold; margin-bottom:-10px; }
+.next_game_date{text-align:center; margin-bottom:-10px; font-size:15px; font-weight:bold;}
+.next_game_date_jour{text-align:center;margin-bottom:-10px; font-size:15px; font-weight:bold;}
+.next_match_resultat{margin-top:0px; margin-left:-15px; margin-bottom:20px;}
+/***************************************************************
+						CONTENT
+****************************************************************/
+.content{
+	background-color:#f3f4f5;
+	/** height:200px; **/
+}
+.middle_content_back{
+	background-color:#fff;
+	overflow:hidden;
+	border-radius: 5px 5px 5px 5px;
+	padding:3px;
+	width:960px;
+	margin:0 auto;
+	display:block;
+}
+.middle_content{
+	background-color:#f4f5f6;
+	overflow:hidden;
+	border-radius: 5px 5px 5px 5px;
+	padding:5px;
+	border:2px solid #fff;
+	width:960px;
+	margin:0 auto;
+	display:block;
+}
+/***************************************************************
+						ARTICLES
+****************************************************************/
+.articles_homes{margin-left:-10px;}
+.article{margin-bottom:50px;}
+.article_detail{margin-left:0px;}
+.article a{color:black;}
+.posts_article{margin-left:15px; margin-top:50px; margin-bottom:80px;}
+.posts_article h1{margin-left:35px;}
+.posts_article  a{color:#006cb7;}
+.posts_article  .hr{margin-left:30px;}
+.textindent{text-indent:-5000px;}
+.content_article{margin-top:15px; margin-bottom:15px;}
+.date_posts{position:absolute;color:white; z-index:150; margin-top:-25px; margin-left:-33px; font-size:14px;}
+.blog_post_img{
+	margin-left:-39px;
+	margin-top:-6px;
+	float:left;
+	position:absolute;
+	z-index:100;
+}
+.typearticle{
+	margin-left:35px;
+	margin-right:auto;
+	text-align:left;
+	font: 15px  Helvetica, sans-serif,Georgia, arial ;
+	font-style:italic;
+}
+.typearticle span{
+	color:#006cb7;
+}
+.post_image{float:left; margin-left:35px; margin-right:10px; margin-top:5px; margin-bottom:10px;}
+.post_content{text-align: justify; margin-right:40px;}
+/***************************************************************
+						FOOTER
+****************************************************************/
+#footer{
+	background-color:black;
+	height:50px;
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:-50px;
+	position:absolute;
+	z-index:-100;
+}
+.footers{
+	color:#006cb7;
+	background-color:black;
+	display:block;
+	height:300px;
+	position:relative;
+}
+.textfoot{padding-top:30px; font-size:12px; text-align:justify; color:white;}
+.textfoot h4{text-shadow:none; margin-bottom:10px; margin-top:0px;}
+.textfoot div{text-shadow:none; margin-bottom:5px; margin-right:10px;}
+.textfoot div a{color:#006cb7;}
+.separateur{background:url(../img/footer_sep.png) repeat-y top right transparent; height:125px;}
+/***************************************************************
+						LIEN EQUIPES 
+****************************************************************/
+#teamMenu {
+    background:url(../img/team_logo_nav.jpg) no-repeat scroll left top transparent;
+    float:left;
+    height:30px;
+    width:960px;
+}
+#teamMenu div:hover {background: url(../img/team_logo_nav.jpg) repeat scroll left top transparent;}
+#teamMenu div {
+    float: left;
+    height: 30px;
+}
+#teamMenu div.nhl:hover {
+    background-position: 0 30px;
+}
+#teamMenu div.ana:hover {
+    background-position: -32px 30px;
+}
+#teamMenu div.bos:hover {
+    background-position: -66px 30px;
+}
+#teamMenu div.buf:hover {
+    background-position: -94px 30px;
+}
+#teamMenu div.cgy:hover {
+    background-position: -126px 30px;
+}
+#teamMenu div.car:hover {
+    background-position: -156px 30px;
+}
+#teamMenu div.chi:hover {
+    background-position: -188px 30px;
+}
+#teamMenu div.col:hover {
+    background-position: -218px 30px;
+}
+#teamMenu div.clb:hover {
+    background-position: -248px 30px;
+}
+#teamMenu div.dal:hover {
+    background-position: -278px 30px;
+}
+#teamMenu div.det:hover {
+    background-position: -314px 30px;
+}
+#teamMenu div.edm:hover {
+    background-position: -350px 30px;
+}
+#teamMenu div.fla:hover {
+    background-position: -378px 30px;
+}
+#teamMenu div.los:hover {
+    background-position: -416px 30px;
+}
+#teamMenu div.min:hover {
+    background-position: -446px 30px;
+}
+#teamMenu div.mtl:hover {
+    background-position: -482px 30px;
+}
+#teamMenu div.nsh:hover {
+    background-position: -516px 30px;
+}
+#teamMenu div.njd:hover {
+    background-position: -552px 30px;
+}
+#teamMenu div.nyi:hover {
+    background-position: -580px 30px;
+}
+#teamMenu div.nyr:hover {
+    background-position: -608px 30px;
+}
+#teamMenu div.ott:hover {
+    background-position: -636px 30px;
+}
+#teamMenu div.phi:hover {
+    background-position: -666px 30px;
+}
+#teamMenu div.phx:hover {
+    background-position: -700px 30px;
+}
+#teamMenu div.pit:hover {
+    background-position: -732px 30px;
+}
+#teamMenu div.sjs:hover {
+    background-position: -762px 30px;
+}
+#teamMenu div.stl:hover {
+    background-position: -796px 30px;
+}
+#teamMenu div.tbl:hover {
+    background-position: -826px 30px;
+}
+#teamMenu div.tor:hover {
+    background-position: -854px 30px;
+}
+#teamMenu div.van:hover {
+    background-position: -884px 30px;
+}
+#teamMenu div.wsh:hover {
+    background-position: -914px 30px;
+}
+#teamMenu div.wpg:hover {
+    background-position: -954px 30px;
+}
+/***************************************************************
+						PAGINATION
+****************************************************************/
+.pagination_homes{margin-bottom:50px; margin-left:200px; }
+.pagination_homes a{color:#006cb7;}
+.pagination_homes ul {margin-left:auto; margin-right:auto;}
+.pagination_homes li{float:left;}
+.pagination {
+	margin-bottom:20px;
+	margin-left:340px;
+	width:960px;	
+}
+.pagination a{
+	color:#006cb7;
+}
+.pagination li{
+	float:left;
+}
+.clear{clear:both;}
